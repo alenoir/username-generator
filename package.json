@@ -1,0 +1,24 @@
+{
+  "name": "username-generator",
+  "version": "1.0.0",
+  "description": "Generate a username",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenoir/username-generator.git"
+  },
+  "keywords": [
+    "username",
+    "generator",
+    "random"
+  ],
+  "author": "Antoine Lenoir <antoine@tricy.io> (http://tricy.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alenoir/username-generator/issues"
+  },
+  "homepage": "https://github.com/alenoir/username-generator#readme"
+}

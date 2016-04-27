@@ -12,7 +12,7 @@ npm install username-generator --save
 
 ```javascript
 
-var UsernameGenerator = require('usernameGenerator');
+var UsernameGenerator = require('username-generator');
 
 var username1 = UsernameGenerator.generateUsername();
 var username2 = UsernameGenerator.generateUsername("-");

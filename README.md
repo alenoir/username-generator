@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/alenoir/username-generator.svg?branch=master)](https://travis-ci.org/alenoir/username-generator)
+
 # username-generator
 
 Generate a username randomly

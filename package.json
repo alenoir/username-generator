@@ -4,7 +4,7 @@
   "description": "Generate a username randomly",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec && codecov --token=34ba0296-9e88-483b-887d-33c6e5ed5663"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,10 @@
     "url": "https://github.com/alenoir/username-generator/issues"
   },
   "homepage": "https://github.com/alenoir/username-generator#readme",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3"
   }
 }

@@ -23,7 +23,7 @@
   "homepage": "https://github.com/alenoir/username-generator#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "codecov": "^1.0.1",
+    "codecov": "^2.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.0"
   }

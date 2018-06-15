@@ -12,4 +12,9 @@ describe("Generate Username", function() {
     var username = generator.generateUsername();
     expect(username).to.not.contain('-')
   });
+
+  it("length", function() {
+    var username = generator.generateUsername("", 10);
+    expect(username.length).to.equal(10)
+  });
 });

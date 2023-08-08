@@ -25,3 +25,14 @@ username1 // codgerrevolting
 username2 // tautology-modest
 
 ```
+
+### Usage with typescript
+
+1. Add a file called `username-generator.d.ts` anywhere under your `src` folder
+2. Write this in the file:
+
+```typescript
+declare module "username-generator" {
+  export function generateUsername(seperator?: string, length?: number): string
+}
+```
